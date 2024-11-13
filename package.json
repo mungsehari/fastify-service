@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.1",
+    "@fastify/multipart": "^9.0.1",
+    "bcryptjs": "^2.4.3",
+    "fastify": "^5.1.0",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
